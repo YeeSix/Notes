@@ -62,7 +62,7 @@ Remote：远程仓库
 ### 查看日志
 
 - `git log` 可以查看历史提交日志
-- `git log --online` 可以查看简洁版日志
+- `git log --oneline` 可以查看简洁版日志
 
 ### 回退到指定版本
 

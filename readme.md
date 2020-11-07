@@ -101,6 +101,9 @@ Remote：远程仓库
 
 - push和pull简写方法
     + `git remote add origin [地址]` 即添加一个远程仓库的地址变量origin,方便后期使用
+        - `git remote` 查看当前的远程仓库变量
+        - `git remote remove origin` 可以删除之前保存的远程仓库
+        - `git origin -v` 可以查看具体绑定的地址
     + `git pull origin -u master` 即加上-u参数,git会把当前分支和远程的对应分支进行关联
     + `git push` `git pull`
 
